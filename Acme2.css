@@ -1,0 +1,71 @@
+body {
+  font-family: 'Lucida Grande', sans-serif;
+  background-image: url("http://f.cl.ly/items/3C0W1n1t1s0P1Z0w131r/background.png");
+  background-size: 200px 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+header {
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  background-color: rgb(196, 196, 196);
+  text-shadow: 0px 0.5px 1px #000000;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  padding: 10px;
+  float: right;
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+img {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+h1 {
+ font-size: 24px;
+}
+main {
+  padding: 20px 30px 30px 30px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: grey;
+  border: grey;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+button {
+  background-color: rgb(31, 54, 163);
+  text-shadow:1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  border: black;
+  color: white;
+  font-family: 'Lucida Grande', sans-serif;
+  font-size: 16px;
+  height: 45px;
+  width: 100px;
+}
+hr {
+  width: 65%;
+  text-align: center;
+  color: rgb(157, 152, 157);
+  height: 0.5px;
+}
+footer {
+  font-size: 12px;
+  color: rgb(157, 152, 157);
+}

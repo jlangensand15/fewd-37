@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ACME Corp - Home</title>
+    <link rel="stylesheet" href="Acme2.css" media="screen" charset="utf-8">
+  </head>
+  <body>
+
+
+<script>
+//Create the header
+var body = document.querySelector("body");
+var header = document.createElement("header");
+body.appendChild(header);
+
+var img = document.createElement("img");
+img.setAttribute('src', 'http://f.cl.ly/items/05361u3R0D3i1c2y2203/acme-corp.jpg');
+img.setAttribute('height','55px');
+img.setAttribute('width', '200px');
+header.appendChild(img);
+
+//Create button
+var ul = document.createElement("ul");
+header.appendChild(ul);
+
+//create li
+var li = document.createElement("li");
+ul.appendChild(li);
+
+var aProducts = document.createElement("a");
+aProducts.setAttribute('href', 'http://www.marketo.com');
+aProducts.textContent = "Products";
+li.appendChild(aProducts);
+
+var button = document.createElement("button");
+button.textContent = "Sign Up";
+ul.appendChild(button);
+
+
+</script>
+
+  </body>
+</html>
