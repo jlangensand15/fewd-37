@@ -33,7 +33,7 @@ function resultsReceived(results) {
   movieDiv.classList.add("movie-title");
   movieYear.classList.add("movie-release-date");
   link.setAttribute("href","http://www.imdb.com/title/"+results["Search"][i]["imdbID"]);
-  li.textContent = results["Search"][i]["Title"];
+  link.textContent = results["Search"][i]["Title"];
   movieYear.textContent = results["Search"][i]["Year"];
 
   ul.appendChild(li);
