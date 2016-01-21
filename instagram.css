@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+body {
+  font-family: Arial;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.4em;
+  background-image: url("http://www.todopaisajes.com/Imagenes/bosque-frondoso.jpg")
+}
+main {
+  margin: 2em auto;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  background: white;
+  padding: 2em 3em;
+  max-width: 650px;
+  height: 400px;
+}
+input,
+button {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom-width: 2px;
+  border-radius: 5px; font-size: inherit;
+  padding: .5em 1em;
+  cursor: pointer;
+}
+input {
+  width: 60%;
+}
+button {
+  color: white;
+  width: 32%;
+  background-color: #04d78b;
+  margin-left: 8px;
+}
+button:hover {
+        color: white;
+        width: 32%;
+        background-color: #149a5a;
+        opacity: 1;
+}
+a {
+  color: #099c67;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#image {
+  float: left;
+  height: 160px;
+  line-height: 100px;
+  text-align: center;
+  width: 160px;
+  margin: 5px 0px 5px 20px;
+}
