@@ -22,18 +22,18 @@ function formSubmitted(event) {
 
 function resultsReceived(results) {
 // foreach.reslts(getimages)
+console.log(results["data"].length);
 
-  console.log(results);
-  var imagesrc = results["data"][0]["images"]["thumbnail"]["url"];
-  console.log(imagesrc);
+  // results.forEach(loadimage);
+  for (var i = 0; i < results["data"].length; i++){
+    console.log(i);
+    var imagesrc = results["data"][i]["images"]["thumbnail"]["url"];
+''
 
-  var caption = results["data"][0]["caption"]["text"];
-  console.log(caption);
-  debugger;
+    var caption = results["data"][i]["caption"]["text"];
 
-  for (var i = 0; i < results["data"].length; i++) {
-  console.log(results["data"]);
-
+  // funciton loadimage(results["data"]) {
+  // console.log("working here??");
   var imageList = document.querySelector("#image");
   var li = document.createElement("li");
   var imageDiv = document.createElement("div");
@@ -43,5 +43,5 @@ function resultsReceived(results) {
   var image=document.createElement("img");
   image.setAttribute("src", imagesrc);
   imageList.appendChild(image);
-}
-}
+};
+};
