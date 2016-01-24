@@ -53,3 +53,6 @@ a:hover {
   width: 160px;
   margin: 5px 0px 5px 20px;
 }
+img {
+  padding: 10px;
+}
